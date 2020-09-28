@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -10,8 +8,8 @@
 	<meta property="og:image" content="" />
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="MobileOptimized" content="320">
-    <!--srart theme style -->
+	<meta name="MobileOptimized" content="320">
+	
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="css/flaticon.css" rel="stylesheet" type="text/css">
@@ -22,8 +20,6 @@
 	<link href="js/plugins/magnific_popup/magnific-popup.css" rel="stylesheet" type="text/css">
 	<link href="js/plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!-- end theme style -->
-    <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
@@ -47,7 +43,7 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
 				<div class="hb_logo">
-					<a href="#"><img src="images/logo.png" class="img-responsive" alt=""></a>
+					<a href="/"><img src="images/logo.png" class="img-responsive" alt=""></a>
 					
 				</div>
 			</div>
@@ -443,21 +439,20 @@
 			</div>
 		</div>
 		<div class="hb_contact_form_div" style="max-width: 400px; margin: 0 auto">
+			<form action="thankyou.php" method="post" accept-charset="UTF-8">
 			<div class="hb_contact_form">
 				<div class="form-group">
-					<input type="text" id="ur_name" class="form-control" placeholder="Name*">
+					<input type="text" id="ur_name" class="form-control" placeholder="Nazwisko*">
 				</div>
 				<div class="form-group">
-					<input type="text" id="ur_mail" class="form-control" placeholder="Email*">
-				</div>
-				<div class="form-group">
-					<textarea class="form-control" id="msg" placeholder="Message" rows="5"></textarea>
+					<input type="text" id="ur_mail" class="form-control" placeholder="Phone*">
 				</div>
 				<div class="hb_btndiv">
-					<button class="hb_btn" id="send_btn">send</button>
+					<button class="hb_btn" id="send_btn">Wysłać</button>
 					<p id="err"></p>
 				</div>
 			</div>
+			</form>
 		</div>
 	</div>
 </div>
